@@ -1,0 +1,8 @@
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\Model.deps.json
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\Model.dll
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\Model.pdb
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.csprojAssemblyReference.cache
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.AssemblyInfoInputs.cache
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.dll
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.pdb
