@@ -8,7 +8,7 @@ using System.Data.Common;
 using System.Collections.Generic;
 
 
-namespace XXX.DAL
+namespace DAO
 {
    public abstract class MySQLHelper
     {
