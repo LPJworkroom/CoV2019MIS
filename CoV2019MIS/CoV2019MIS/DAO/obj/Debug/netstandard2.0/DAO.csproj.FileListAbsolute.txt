@@ -21,4 +21,13 @@ C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\D
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.csproj.CopyComplete
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.dll
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.pdb
+<<<<<<< HEAD
 E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\MySql.Data.dll
+=======
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\Accessibility.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+>>>>>>> f559a7c850b8c3b69bfadfe14144277773d1f5d2
