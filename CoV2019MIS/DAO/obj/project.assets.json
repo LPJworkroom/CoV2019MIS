@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
       }
     }
   },
@@ -171,31 +181,33 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Model >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lpjworkroom\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\33389\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj",
+      "projectUniqueName": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj",
-      "packagesPath": "C:\\Users\\lpjworkroom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\DAO\\obj\\",
+      "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj",
+      "packagesPath": "C:\\Users\\33389\\.nuget\\packages\\",
+      "outputPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\DAO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\lpjworkroom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\33389\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -207,7 +219,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
+              "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
