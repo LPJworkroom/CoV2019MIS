@@ -1,0 +1,8 @@
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\DAO.deps.json
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\DAO.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\DAO.pdb
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.csprojAssemblyReference.cache
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.AssemblyInfoInputs.cache
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.AssemblyInfo.cs
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.pdb
