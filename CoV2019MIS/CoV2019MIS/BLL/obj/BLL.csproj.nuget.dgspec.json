@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj": {}
+    "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj": {
+    "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\33389\\.nuget\\packages\\",
-        "outputPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\lpjworkroom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\33389\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lpjworkroom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +30,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj": {
-                "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj"
+              "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj"
               },
-              "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
-                "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj"
+              "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj"
               }
             }
           }
@@ -66,17 +69,20 @@
         }
       }
     },
-    "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj": {
+    "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\33389\\.nuget\\packages\\",
-        "outputPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\obj\\",
+        "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\lpjworkroom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\33389\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lpjworkroom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +95,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
-                "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj"
+              "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj"
               }
             }
           }
@@ -125,17 +131,20 @@
         }
       }
     },
-    "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
+    "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\33389\\.nuget\\packages\\",
-        "outputPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\obj\\",
+        "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\lpjworkroom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\33389\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lpjworkroom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

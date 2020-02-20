@@ -10,7 +10,8 @@
       "DAO/1.0.0": {
         "dependencies": {
           "Model": "1.0.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "MySql.Data": "6.9.8.0"
         },
         "runtime": {
           "DAO.dll": {}
@@ -25,6 +26,14 @@
       "Model/1.0.0": {
         "runtime": {
           "Model.dll": {}
+        }
+      },
+      "MySql.Data/6.9.8.0": {
+        "runtime": {
+          "MySql.Data.dll": {
+            "assemblyVersion": "6.9.8.0",
+            "fileVersion": "6.9.8.0"
+          }
         }
       }
     }
@@ -51,6 +60,11 @@
     },
     "Model/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Data/6.9.8.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
