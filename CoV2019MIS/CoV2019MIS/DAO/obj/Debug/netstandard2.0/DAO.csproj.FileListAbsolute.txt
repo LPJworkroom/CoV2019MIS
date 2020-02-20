@@ -9,3 +9,15 @@ E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.Ass
 E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.csproj.CopyComplete
 E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.dll
 E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.pdb
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\DAO.deps.json
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\DAO.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\DAO.pdb
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\Model.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\MySql.Data.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.csprojAssemblyReference.cache
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.AssemblyInfoInputs.cache
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.AssemblyInfo.cs
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.csproj.CopyComplete
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.pdb

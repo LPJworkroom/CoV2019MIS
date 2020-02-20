@@ -6,3 +6,11 @@ E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model
 E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
 E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.dll
 E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.pdb
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\Model.deps.json
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\Model.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.csprojAssemblyReference.cache
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.AssemblyInfoInputs.cache
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.pdb
