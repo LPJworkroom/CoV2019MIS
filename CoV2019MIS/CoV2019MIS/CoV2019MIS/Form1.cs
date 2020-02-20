@@ -26,7 +26,12 @@ namespace CoV2019MIS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //this.overallInfo = new Overallinfo([this.Controls[]]);
+            //this.overallInfo = new Overallinfo(new Label[]{Controls.Find("TodayConfirmed",false)[0],
+            //                                    Controls["TodaySuspect"],
+            //                                    Controls["TodayDeath"]},
+            //                                   [Controls["TodayConfirmed"], 
+            //                                    Controls["TodaySuspect"],
+            //                                    Controls["TodayDeath"]]);
         }
 
         private void label1_Click(object sender, EventArgs e)
