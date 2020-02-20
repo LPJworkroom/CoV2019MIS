@@ -14,3 +14,10 @@ C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.dll
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.pdb
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\Accessibility.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\Model\obj\Debug\netstandard2.0\Model.csproj.CopyComplete
