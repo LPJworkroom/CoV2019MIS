@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label5 = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.label8 = new System.Windows.Forms.Label();
@@ -85,20 +85,18 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(5, 12);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(7, 15);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 12);
+            this.label5.Size = new System.Drawing.Size(67, 15);
             this.label5.TabIndex = 16;
             this.label5.Text = "省份排名";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(5, 12);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(7, 15);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 12);
+            this.label8.Size = new System.Drawing.Size(82, 15);
             this.label8.TabIndex = 23;
             this.label8.Text = "你知道吗？";
             // 
@@ -118,150 +116,136 @@
             this.OverAllInfo.Controls.Add(this.label3);
             this.OverAllInfo.Controls.Add(this.label2);
             this.OverAllInfo.Controls.Add(this.label1);
-            this.OverAllInfo.Location = new System.Drawing.Point(24, 10);
-            this.OverAllInfo.Margin = new System.Windows.Forms.Padding(2);
+            this.OverAllInfo.Location = new System.Drawing.Point(32, 12);
+            this.OverAllInfo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.OverAllInfo.Name = "OverAllInfo";
-            this.OverAllInfo.Size = new System.Drawing.Size(335, 126);
+            this.OverAllInfo.Size = new System.Drawing.Size(447, 158);
             this.OverAllInfo.TabIndex = 24;
             this.OverAllInfo.Paint += new System.Windows.Forms.PaintEventHandler(this.OverAllInfo_Paint);
             // 
             // LabelSumDeath
             // 
             this.LabelSumDeath.AutoSize = true;
-            this.LabelSumDeath.Location = new System.Drawing.Point(286, 54);
-            this.LabelSumDeath.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LabelSumDeath.Location = new System.Drawing.Point(381, 68);
             this.LabelSumDeath.Name = "LabelSumDeath";
-            this.LabelSumDeath.Size = new System.Drawing.Size(41, 12);
+            this.LabelSumDeath.Size = new System.Drawing.Size(55, 15);
             this.LabelSumDeath.TabIndex = 28;
             this.LabelSumDeath.Text = "label7";
             // 
             // LabelSumSuspect
             // 
             this.LabelSumSuspect.AutoSize = true;
-            this.LabelSumSuspect.Location = new System.Drawing.Point(230, 54);
-            this.LabelSumSuspect.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LabelSumSuspect.Location = new System.Drawing.Point(307, 68);
             this.LabelSumSuspect.Name = "LabelSumSuspect";
-            this.LabelSumSuspect.Size = new System.Drawing.Size(41, 12);
+            this.LabelSumSuspect.Size = new System.Drawing.Size(55, 15);
             this.LabelSumSuspect.TabIndex = 27;
             this.LabelSumSuspect.Text = "label6";
             // 
             // LabelSumConfirmed
             // 
             this.LabelSumConfirmed.AutoSize = true;
-            this.LabelSumConfirmed.Location = new System.Drawing.Point(173, 54);
-            this.LabelSumConfirmed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LabelSumConfirmed.Location = new System.Drawing.Point(231, 68);
             this.LabelSumConfirmed.Name = "LabelSumConfirmed";
-            this.LabelSumConfirmed.Size = new System.Drawing.Size(41, 12);
+            this.LabelSumConfirmed.Size = new System.Drawing.Size(55, 15);
             this.LabelSumConfirmed.TabIndex = 26;
             this.LabelSumConfirmed.Text = "label5";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(293, 82);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(391, 102);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 12);
+            this.label9.Size = new System.Drawing.Size(37, 15);
             this.label9.TabIndex = 25;
             this.label9.Text = "死亡";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(237, 82);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(316, 102);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(29, 12);
+            this.label10.Size = new System.Drawing.Size(37, 15);
             this.label10.TabIndex = 24;
             this.label10.Text = "疑似";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(173, 82);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(231, 102);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 12);
+            this.label11.Size = new System.Drawing.Size(37, 15);
             this.label11.TabIndex = 23;
             this.label11.Text = "确诊";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(173, 9);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(231, 11);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(53, 12);
+            this.label12.Size = new System.Drawing.Size(67, 15);
             this.label12.TabIndex = 22;
             this.label12.Text = "全国总计";
             // 
             // LabelTodayDeath
             // 
             this.LabelTodayDeath.AutoSize = true;
-            this.LabelTodayDeath.Location = new System.Drawing.Point(116, 54);
-            this.LabelTodayDeath.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LabelTodayDeath.Location = new System.Drawing.Point(155, 68);
             this.LabelTodayDeath.Name = "LabelTodayDeath";
-            this.LabelTodayDeath.Size = new System.Drawing.Size(41, 12);
+            this.LabelTodayDeath.Size = new System.Drawing.Size(55, 15);
             this.LabelTodayDeath.TabIndex = 21;
             this.LabelTodayDeath.Text = "label7";
             // 
             // LabelTodaySuspect
             // 
             this.LabelTodaySuspect.AutoSize = true;
-            this.LabelTodaySuspect.Location = new System.Drawing.Point(59, 54);
-            this.LabelTodaySuspect.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LabelTodaySuspect.Location = new System.Drawing.Point(79, 68);
             this.LabelTodaySuspect.Name = "LabelTodaySuspect";
-            this.LabelTodaySuspect.Size = new System.Drawing.Size(41, 12);
+            this.LabelTodaySuspect.Size = new System.Drawing.Size(55, 15);
             this.LabelTodaySuspect.TabIndex = 20;
             this.LabelTodaySuspect.Text = "label6";
             // 
             // LabelTodayConfirmed
             // 
             this.LabelTodayConfirmed.AutoSize = true;
-            this.LabelTodayConfirmed.Location = new System.Drawing.Point(2, 54);
-            this.LabelTodayConfirmed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LabelTodayConfirmed.Location = new System.Drawing.Point(3, 68);
             this.LabelTodayConfirmed.Name = "LabelTodayConfirmed";
-            this.LabelTodayConfirmed.Size = new System.Drawing.Size(41, 12);
+            this.LabelTodayConfirmed.Size = new System.Drawing.Size(55, 15);
             this.LabelTodayConfirmed.TabIndex = 19;
             this.LabelTodayConfirmed.Text = "label5";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(122, 82);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(163, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 12);
+            this.label4.Size = new System.Drawing.Size(37, 15);
             this.label4.TabIndex = 18;
             this.label4.Text = "死亡";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(66, 82);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(88, 102);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 12);
+            this.label3.Size = new System.Drawing.Size(37, 15);
             this.label3.TabIndex = 17;
             this.label3.Text = "疑似";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(2, 82);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(3, 102);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 12);
+            this.label2.Size = new System.Drawing.Size(37, 15);
             this.label2.TabIndex = 16;
             this.label2.Text = "确诊";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(2, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(3, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.Size = new System.Drawing.Size(67, 15);
             this.label1.TabIndex = 15;
             this.label1.Text = "今日新增";
             // 
@@ -271,44 +255,49 @@
             this.PlagueKnowledge.Controls.Add(this.button1);
             this.PlagueKnowledge.Controls.Add(this.textBox1);
             this.PlagueKnowledge.Controls.Add(this.label8);
-            this.PlagueKnowledge.Location = new System.Drawing.Point(998, 402);
+            this.PlagueKnowledge.Location = new System.Drawing.Point(1331, 502);
+            this.PlagueKnowledge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PlagueKnowledge.Name = "PlagueKnowledge";
-            this.PlagueKnowledge.Size = new System.Drawing.Size(267, 392);
+            this.PlagueKnowledge.Size = new System.Drawing.Size(356, 490);
             this.PlagueKnowledge.TabIndex = 26;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(158, 348);
+            this.button2.Location = new System.Drawing.Point(211, 435);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(100, 29);
             this.button2.TabIndex = 28;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(33, 348);
+            this.button1.Location = new System.Drawing.Point(44, 435);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 29);
             this.button1.TabIndex = 27;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(7, 40);
+            this.textBox1.Location = new System.Drawing.Point(9, 50);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(260, 286);
+            this.textBox1.Size = new System.Drawing.Size(345, 356);
             this.textBox1.TabIndex = 26;
             // 
             // ProvinceRank
             // 
             this.ProvinceRank.Controls.Add(this.DataGridView);
             this.ProvinceRank.Controls.Add(this.label5);
-            this.ProvinceRank.Location = new System.Drawing.Point(24, 155);
+            this.ProvinceRank.Location = new System.Drawing.Point(32, 194);
+            this.ProvinceRank.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProvinceRank.Name = "ProvinceRank";
-            this.ProvinceRank.Size = new System.Drawing.Size(335, 372);
+            this.ProvinceRank.Size = new System.Drawing.Size(447, 465);
             this.ProvinceRank.TabIndex = 27;
             this.ProvinceRank.Paint += new System.Windows.Forms.PaintEventHandler(this.ProvinceRank_Paint);
             // 
@@ -318,27 +307,27 @@
             this.DataGridView.AllowUserToDeleteRows = false;
             this.DataGridView.AllowUserToResizeColumns = false;
             this.DataGridView.AllowUserToResizeRows = false;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.province,
             this.confirmed,
             this.suspect,
             this.death});
-            this.DataGridView.Location = new System.Drawing.Point(0, 40);
-            this.DataGridView.Margin = new System.Windows.Forms.Padding(2);
+            this.DataGridView.Location = new System.Drawing.Point(0, 50);
+            this.DataGridView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DataGridView.Name = "DataGridView";
             this.DataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             this.DataGridView.RowTemplate.Height = 27;
             this.DataGridView.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.DataGridView.Size = new System.Drawing.Size(335, 334);
+            this.DataGridView.Size = new System.Drawing.Size(447, 418);
             this.DataGridView.TabIndex = 18;
             // 
             // province
@@ -367,8 +356,8 @@
             // 
             // death
             // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.death.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.death.DefaultCellStyle = dataGridViewCellStyle4;
             this.death.HeaderText = "死亡";
             this.death.MinimumWidth = 6;
             this.death.Name = "death";
@@ -378,18 +367,19 @@
             // PlagueMap
             // 
             this.PlagueMap.Controls.Add(this.pictureBox1);
-            this.PlagueMap.Location = new System.Drawing.Point(365, 10);
+            this.PlagueMap.Location = new System.Drawing.Point(487, 12);
+            this.PlagueMap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PlagueMap.Name = "PlagueMap";
-            this.PlagueMap.Size = new System.Drawing.Size(626, 517);
+            this.PlagueMap.Size = new System.Drawing.Size(835, 646);
             this.PlagueMap.TabIndex = 28;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CoV2019MIS.Properties.Resources.地图;
-            this.pictureBox1.Location = new System.Drawing.Point(11, 9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(15, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(602, 517);
+            this.pictureBox1.Size = new System.Drawing.Size(803, 646);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
@@ -398,82 +388,82 @@
             // 
             this.PlagueNews.Controls.Add(this.label6);
             this.PlagueNews.Controls.Add(this.listBox1);
-            this.PlagueNews.Location = new System.Drawing.Point(998, 10);
+            this.PlagueNews.Location = new System.Drawing.Point(1331, 12);
+            this.PlagueNews.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PlagueNews.Name = "PlagueNews";
-            this.PlagueNews.Size = new System.Drawing.Size(263, 386);
+            this.PlagueNews.Size = new System.Drawing.Size(351, 482);
             this.PlagueNews.TabIndex = 29;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 23);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(4, 29);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 12);
+            this.label6.Size = new System.Drawing.Size(67, 15);
             this.label6.TabIndex = 22;
             this.label6.Text = "最新新闻";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(-2, 61);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(-3, 76);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(267, 316);
+            this.listBox1.Size = new System.Drawing.Size(355, 394);
             this.listBox1.TabIndex = 21;
             // 
             // HistoryChart
             // 
             this.HistoryChart.Controls.Add(this.label7);
             this.HistoryChart.Controls.Add(this.chart1);
-            this.HistoryChart.Location = new System.Drawing.Point(12, 553);
+            this.HistoryChart.Location = new System.Drawing.Point(16, 691);
+            this.HistoryChart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.HistoryChart.Name = "HistoryChart";
-            this.HistoryChart.Size = new System.Drawing.Size(980, 242);
+            this.HistoryChart.Size = new System.Drawing.Size(1307, 302);
             this.HistoryChart.TabIndex = 30;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(23, 5);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(31, 6);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 12);
+            this.label7.Size = new System.Drawing.Size(97, 15);
             this.label7.TabIndex = 24;
             this.label7.Text = "全国病例统计";
             // 
             // chart1
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(18, 32);
-            this.chart1.Margin = new System.Windows.Forms.Padding(2);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
+            this.chart1.Location = new System.Drawing.Point(24, 40);
+            this.chart1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(944, 206);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(1259, 258);
             this.chart1.TabIndex = 23;
             this.chart1.Text = "chart1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1272, 806);
+            this.ClientSize = new System.Drawing.Size(1696, 1008);
             this.Controls.Add(this.HistoryChart);
             this.Controls.Add(this.PlagueNews);
             this.Controls.Add(this.PlagueMap);
             this.Controls.Add(this.ProvinceRank);
             this.Controls.Add(this.PlagueKnowledge);
             this.Controls.Add(this.OverAllInfo);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(8);
+            this.Padding = new System.Windows.Forms.Padding(11, 10, 11, 10);
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();

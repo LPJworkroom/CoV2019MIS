@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Model;
 
 namespace CoV2019MIS
 {
     public partial class Form1 : Form
     {
-        private dynamic overallInfo;    //概况信息类
+        private Overallinfo overallInfo;    //概况信息类
      //   private provinceRank;	//省份数量排名类
 	    //private plagueMap;	//疫情地图类
 	    //private historyChart;	//历史折线图类
@@ -25,7 +26,7 @@ namespace CoV2019MIS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.overallInfo = this.Controls["OverAllInfo"];
+            //this.overallInfo = new Overallinfo([this.Controls[]]);
         }
 
         private void label1_Click(object sender, EventArgs e)
