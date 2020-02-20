@@ -25,3 +25,4 @@ C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\CoV2019MI
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.csproj.CopyComplete
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.exe
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.pdb
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.Form1.resources

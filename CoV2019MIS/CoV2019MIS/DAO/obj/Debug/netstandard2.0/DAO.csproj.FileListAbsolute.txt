@@ -21,3 +21,4 @@ C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\D
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.csproj.CopyComplete
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.dll
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\obj\Debug\netstandard2.0\DAO.pdb
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\DAO\bin\Debug\netstandard2.0\MySql.Data.dll

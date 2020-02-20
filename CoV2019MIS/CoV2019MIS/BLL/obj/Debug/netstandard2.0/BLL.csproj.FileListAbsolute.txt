@@ -25,3 +25,4 @@ C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\BLL\obj\D
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\BLL\obj\Debug\netstandard2.0\BLL.dll
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\BLL\obj\Debug\netstandard2.0\BLL.pdb
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\BLL\bin\Debug\netstandard2.0\MySql.Data.dll
