@@ -88,6 +88,10 @@
     <Content Include="Properties\地图.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{5c06753d-3af3-4daf-9f50-e63c34f8a3b5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{eb3fa7a9-7c0e-4d1e-bd54-f27a8c18cd5d}</Project>
       <Name>Model</Name>

@@ -10,3 +10,17 @@ C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\bin\Debug
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.csproj.CopyComplete
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.exe
 C:\Users\lpjworkroom\Documents\GitHub\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.pdb
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\bin\Debug\CoV2019MIS.exe.config
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\bin\Debug\CoV2019MIS.exe
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\bin\Debug\CoV2019MIS.pdb
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\bin\Debug\Model.dll
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\bin\Debug\Model.pdb
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.csprojAssemblyReference.cache
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.Form1.resources
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.Properties.Resources.resources
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.csproj.GenerateResource.cache
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.csproj.CopyComplete
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.exe
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\obj\Debug\CoV2019MIS.pdb
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\bin\Debug\BLL.dll
+E:\Develop\CoV2019MIS\CoV2019MIS\CoV2019MIS\bin\Debug\BLL.pdb
