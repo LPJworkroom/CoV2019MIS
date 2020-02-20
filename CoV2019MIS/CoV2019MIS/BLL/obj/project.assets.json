@@ -215,23 +215,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lpjworkroom\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\33389\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj",
+      "projectUniqueName": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\lpjworkroom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\obj\\",
+      "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\33389\\.nuget\\packages\\",
+      "outputPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\BLL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\lpjworkroom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\33389\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -244,11 +240,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj": {
-              "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj"
+            "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj": {
+              "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\DAO\\DAO.csproj"
             },
-            "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\lpjworkroom\\Documents\\GitHub\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj"
+            "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj": {
+              "projectPath": "E:\\Develop\\CoV2019MIS\\CoV2019MIS\\CoV2019MIS\\Model\\Model.csproj"
             }
           }
         }
