@@ -23,6 +23,8 @@ namespace Model
                 this.today[i].Text =todayData[i].ToString();
                 this.sum[i].Text = sumData[i].ToString();
             }
+            MessageBox.Show("sdfs");
+            Console.WriteLine("sdfdssds");
         }
     }
 
