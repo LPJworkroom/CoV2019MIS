@@ -89,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL\BLL.csproj">
-      <Project>{5c06753d-3af3-4daf-9f50-e63c34f8a3b5}</Project>
+      <Project>{05715c36-0a89-4132-9705-033313fdee1d}</Project>
       <Name>BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
