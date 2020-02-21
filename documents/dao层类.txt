@@ -31,3 +31,12 @@ public interface IKnowledgeDataDAO
         int insert(NewsData nd);
         int update(NewsData nd);
     }
+
+#PlagueColor
+½Ó¿Ú
+    public interface IPlagueColorDAO
+    {
+        List<PlagueColor> selectALL();
+        PlagueColor selectByNum(int num);
+
+    }
