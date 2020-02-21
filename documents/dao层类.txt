@@ -1,0 +1,33 @@
+#userinfo
+
+接口
+public interface IUserInfoDAO
+    {
+        List<UserInfo> selectALL();
+        UserInfo selectByID(int uid);
+        int insert(UserInfo uinfo);
+        UserInfo selectByNick(string nick);
+        int update(UserInfo uinfo);
+    }
+
+#KnowledgeData
+接口
+public interface IKnowledgeDataDAO
+    {
+        List<KnowledgeData> selectALL();
+        List<KnowledgeData> selectByType(string type);
+        KnowledgeData selectByType_Title(string type,string title);
+        int insert(KnowledgeData kd);
+        int update(KnowledgeData kd);
+    }
+
+#NewsData
+接口
+ public interface INewsDataDAO
+    {
+        List<NewsData> selectALL();
+        List<NewsData> selectByDate(string date);
+        NewsData selectByDate_Url(string date, string url);
+        int insert(NewsData nd);
+        int update(NewsData nd);
+    }
