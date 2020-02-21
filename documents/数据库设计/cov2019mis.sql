@@ -1,57 +1,40 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2020/2/20 11:30:35                           */
+/* Created on:     2020/2/21 11:07:18                           */
 /*==============================================================*/
 
 
-drop table if exists conditionColor;
+drop table if exists KnowledgeData;
 
-drop table if exists dateCasedistribute;
+drop table if exists NewsData;
 
-drop table if exists news;
+drop table if exists PlagueColor;
 
-drop table if exists provinceColor;
+drop table if exists ProvinceDailyData;
 
-drop table if exists provinceCurcolor;
+drop table if exists ProvinceDefaultColor;
 
-drop table if exists science;
+drop table if exists ProvinceNowColor;
 
-drop table if exists totalCasedistribute;
+drop table if exists ProvinceSumData;
 
 drop table if exists userinfo;
 
 /*==============================================================*/
-/* Table: conditionColor                                        */
+/* Table: KnowledgeData                                         */
 /*==============================================================*/
-create table conditionColor
+create table KnowledgeData
 (
-   minimum              int not null,
-   maximum              int not null,
-   r                    int not null,
-   g                    int not null,
-   b                    int not null,
-   primary key (minimum, maximum)
+   knowledgetype        varchar(95) not null,
+   title                varchar(95) not null,
+   content              varchar(95) not null,
+   primary key (knowledgetype, title)
 );
 
 /*==============================================================*/
-/* Table: dateCasedistribute                                    */
+/* Table: NewsData                                              */
 /*==============================================================*/
-create table dateCasedistribute
-(
-   province             varchar(95) not null,
-   tot_province         varchar(95),
-   casedate             date not null,
-   confirm              int not null default 0,
-   suspect              int not null default 0,
-   death                int not null default 0,
-   cured                int not null default 0,
-   primary key (province)
-);
-
-/*==============================================================*/
-/* Table: news                                                  */
-/*==============================================================*/
-create table news
+create table NewsData
 (
    newsdate             date not null,
    url                  varchar(95) not null,
@@ -60,15 +43,42 @@ create table news
 );
 
 /*==============================================================*/
-/* Table: provinceColor                                         */
+/* Table: PlagueColor                                           */
 /*==============================================================*/
-create table provinceColor
+create table PlagueColor
+(
+   numfloor             int not null,
+   numceil              int not null,
+   r                    int not null,
+   g                    int not null,
+   b                    int not null,
+   primary key (numfloor, numceil)
+);
+
+/*==============================================================*/
+/* Table: ProvinceDailyData                                     */
+/*==============================================================*/
+create table ProvinceDailyData
 (
    province             varchar(95) not null,
-   pro_province         varchar(95),
-   rDefault             int not null,
-   gDefault             int not null,
-   BDefault             int not null,
+   Pro_province         varchar(95),
+   casedate             date not null,
+   confirmed            int not null default 0,
+   suspect              int not null default 0,
+   death                int not null default 0,
+   primary key (province)
+);
+
+/*==============================================================*/
+/* Table: ProvinceDefaultColor                                  */
+/*==============================================================*/
+create table ProvinceDefaultColor
+(
+   province             varchar(95) not null,
+   Pro_province         varchar(95),
+   r                    int not null,
+   g                    int not null,
+   B                    int not null,
    rOffset              int not null,
    gOffset              int not null,
    bOffset              int not null,
@@ -76,43 +86,31 @@ create table provinceColor
 );
 
 /*==============================================================*/
-/* Table: provinceCurcolor                                      */
+/* Table: ProvinceNowColor                                      */
 /*==============================================================*/
-create table provinceCurcolor
+create table ProvinceNowColor
 (
    province             varchar(95) not null,
-   tot_province         varchar(95),
-   pro_province         varchar(95),
-   rCur                 int not null,
-   gCur                 int not null,
-   bCur                 int not null,
+   Pro_province         varchar(95),
+   Pro_province2        varchar(95),
+   r                    int not null,
+   g                    int not null,
+   b                    int not null,
    primary key (province)
 );
 
 /*==============================================================*/
-/* Table: science                                               */
+/* Table: ProvinceSumData                                       */
 /*==============================================================*/
-create table science
-(
-   category             varchar(95) not null,
-   title                varchar(95) not null,
-   content              varchar(95) not null,
-   primary key (category, title)
-);
-
-/*==============================================================*/
-/* Table: totalCasedistribute                                   */
-/*==============================================================*/
-create table totalCasedistribute
+create table ProvinceSumData
 (
    province             varchar(95) not null,
-   minimum              int,
-   maximum              int,
-   pro_province         varchar(95),
-   totalConfirm         int not null default 0,
-   totalSuspect         int not null default 0,
-   totalDeath           int not null default 0,
-   totalCured           int not null default 0,
+   numfloor             int,
+   numceil              int,
+   Pro_province         varchar(95),
+   confirmed            int not null default 0,
+   suspect              int not null default 0,
+   death                int not null default 0,
    primary key (province)
 );
 
@@ -128,21 +126,21 @@ create table userinfo
    unique key AK_Key_2 (nick)
 );
 
-alter table dateCasedistribute add constraint FK_Relationship_6 foreign key (tot_province)
-      references totalCasedistribute (province) on delete restrict on update restrict;
+alter table ProvinceDailyData add constraint FK_Relationship_6 foreign key (Pro_province)
+      references ProvinceSumData (province) on delete restrict on update restrict;
 
-alter table provinceColor add constraint FK_Relationship_4 foreign key (pro_province)
-      references provinceCurcolor (province) on delete restrict on update restrict;
+alter table ProvinceDefaultColor add constraint FK_Relationship_4 foreign key (Pro_province)
+      references ProvinceNowColor (province) on delete restrict on update restrict;
 
-alter table provinceCurcolor add constraint FK_Relationship_2 foreign key (tot_province)
-      references totalCasedistribute (province) on delete restrict on update restrict;
+alter table ProvinceNowColor add constraint FK_Relationship_2 foreign key (Pro_province)
+      references ProvinceSumData (province) on delete restrict on update restrict;
 
-alter table provinceCurcolor add constraint FK_Relationship_3 foreign key (pro_province)
-      references provinceColor (province) on delete restrict on update restrict;
+alter table ProvinceNowColor add constraint FK_Relationship_3 foreign key (Pro_province2)
+      references ProvinceDefaultColor (province) on delete restrict on update restrict;
 
-alter table totalCasedistribute add constraint FK_Relationship_1 foreign key (pro_province)
-      references provinceCurcolor (province) on delete restrict on update restrict;
+alter table ProvinceSumData add constraint FK_Relationship_1 foreign key (Pro_province)
+      references ProvinceNowColor (province) on delete restrict on update restrict;
 
-alter table totalCasedistribute add constraint FK_Relationship_5 foreign key (minimum, maximum)
-      references conditionColor (minimum, maximum) on delete restrict on update restrict;
+alter table ProvinceSumData add constraint FK_Relationship_5 foreign key (numfloor, numceil)
+      references PlagueColor (numfloor, numceil) on delete restrict on update restrict;
 
