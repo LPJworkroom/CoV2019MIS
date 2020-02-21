@@ -40,3 +40,34 @@ public interface IKnowledgeDataDAO
         PlagueColor selectByNum(int num);
 
     }
+
+#ProvinceDailyData
+接口
+public interface IProvinceDailyDataDAO
+    {
+        List<ProvinceDailyData> selectALL();
+        List<ProvinceDailyData> selectByProvince(string province);
+        List<ProvinceDailyData> selectByDate(string date);
+        ProvinceDailyData selecctByProvince_Date(string province,string date);
+        int insert(ProvinceDailyData pdd);
+        int update(ProvinceDailyData pdd);
+    }
+
+#ProvinceDefaultColor
+接口
+    public interface IProvinceDefaultColorDAO
+    {
+        List<ProvinceDefaultColor> selectALL();
+        ProvinceDefaultColor selectByProvince(string province);
+        ProvinceDefaultColor selectByColor(int r, int g, int b);
+    }
+
+#ProvinceNowColor
+接口
+public interface IProvinceNowColorDAO
+    {
+        List<ProvinceNowColor> selectALL();
+        ProvinceNowColor selectByProvince(string province);
+        ProvinceNowColor selectByColor(int r, int g, int b);
+        int update(ProvinceNowColor pnc);
+    }
