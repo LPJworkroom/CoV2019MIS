@@ -71,3 +71,13 @@ public interface IProvinceNowColorDAO
         ProvinceNowColor selectByColor(int r, int g, int b);
         int update(ProvinceNowColor pnc);
     }
+
+#ProvinceSumData
+½Ó¿Ú
+public interface IProvinceSumDataDAO
+    {
+        List<ProvinceSumData> selectALL();
+        List<ProvinceSumData> selectByProvince(string province);
+        int insert(ProvinceSumData psd);
+        int update(ProvinceSumData psd);
+    }
