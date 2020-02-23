@@ -1,0 +1,80 @@
+#UserInfo
+接口
+public interface IUserInfoBLL
+    {
+        List<UserInfo> selectALL();
+        UserInfo selectByID(int uid);
+        bool insert(UserInfo uinfo);
+        bool update(UserInfo uinfo);
+    }
+
+#KnowledgeData
+接口
+public interface IKnowledgeDataBLL
+    {
+        List<KnowledgeData> selectALL();
+        List<KnowledgeData> selectByType(string type);
+        KnowledgeData selectByType_Title(string type, string title);
+        bool insert(KnowledgeData kd);
+        bool update(KnowledgeData kd);
+    }
+
+#NewsData
+接口
+public interface INewsDataBLL
+    {
+        List<NewsData> selectALL();
+        List<NewsData> selectByDate(string date);
+        NewsData selectByDate_Url(string date, string url);
+        bool insert(NewsData nd);
+        bool update(NewsData nd);
+    }
+
+#PlagueColor
+接口
+public interface IPlagueColorBLL
+    {
+        List<PlagueColor> selectALL();
+        PlagueColor selectByNum(int num);
+    }
+
+#ProvinceDailyData
+接口
+public interface IProvinceDailyDataBLL
+    {
+        List<ProvinceDailyData> selectALL();
+        List<ProvinceDailyData> selectByProvince(string province);
+        List<ProvinceDailyData> selectByDate(string date);
+        ProvinceDailyData selecctByProvince_Date(string province, string date);
+        bool insert(ProvinceDailyData pdd);
+        bool update(ProvinceDailyData pdd);
+    }
+
+#ProvinceDefaultColor
+接口
+public interface IProvinceDefaultColorBLL
+    {
+        List<ProvinceDefaultColor> selectALL();
+        ProvinceDefaultColor selectByProvince(string province);
+        ProvinceDefaultColor selectByColor(int r, int g, int b);
+    }
+
+#ProvinceNowColor
+接口
+public interface IProvinceNowColorBLL
+    {
+        List<ProvinceNowColor> selectALL();
+        ProvinceNowColor selectByProvince(string province);
+        ProvinceNowColor selectByColor(int r, int g, int b);
+        bool update(ProvinceNowColor pnc);
+    }
+
+#ProvinceSumData
+接口
+public interface IProvinceSumDataBLL
+    {
+        List<ProvinceSumData> selectALL();
+        List<ProvinceSumData> selectByProvince(string province);
+        bool insert(ProvinceSumData psd);
+        bool update(ProvinceSumData psd);
+    }
