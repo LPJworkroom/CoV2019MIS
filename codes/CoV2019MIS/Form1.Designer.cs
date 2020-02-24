@@ -54,9 +54,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.PlagueKnowledge = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.ProvinceRankPanel = new System.Windows.Forms.Panel();
             this.DataGridView = new System.Windows.Forms.DataGridView();
             this.province = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,7 +98,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(7, 15);
+            this.label8.Location = new System.Drawing.Point(5, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(82, 15);
             this.label8.TabIndex = 23;
@@ -252,51 +254,74 @@
             // 
             // PlagueKnowledge
             // 
+            this.PlagueKnowledge.Controls.Add(this.richTextBox1);
+            this.PlagueKnowledge.Controls.Add(this.label14);
+            this.PlagueKnowledge.Controls.Add(this.label13);
             this.PlagueKnowledge.Controls.Add(this.button2);
             this.PlagueKnowledge.Controls.Add(this.button1);
-            this.PlagueKnowledge.Controls.Add(this.textBox1);
             this.PlagueKnowledge.Controls.Add(this.label8);
             this.PlagueKnowledge.Location = new System.Drawing.Point(1331, 502);
-            this.PlagueKnowledge.Margin = new System.Windows.Forms.Padding(4);
+            this.PlagueKnowledge.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PlagueKnowledge.Name = "PlagueKnowledge";
             this.PlagueKnowledge.Size = new System.Drawing.Size(356, 490);
             this.PlagueKnowledge.TabIndex = 26;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(9, 84);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(343, 344);
+            this.richTextBox1.TabIndex = 31;
+            this.richTextBox1.Text = "";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(248, 55);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(63, 15);
+            this.label14.TabIndex = 30;
+            this.label14.Text = "label14";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(25, 32);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(63, 15);
+            this.label13.TabIndex = 29;
+            this.label13.Text = "label13";
+            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(211, 435);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 29);
             this.button2.TabIndex = 28;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(44, 435);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 29);
             this.button1.TabIndex = 27;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(9, 50);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(345, 356);
-            this.textBox1.TabIndex = 26;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ProvinceRankPanel
             // 
             this.ProvinceRankPanel.Controls.Add(this.DataGridView);
             this.ProvinceRankPanel.Controls.Add(this.label5);
             this.ProvinceRankPanel.Location = new System.Drawing.Point(32, 194);
-            this.ProvinceRankPanel.Margin = new System.Windows.Forms.Padding(4);
+            this.ProvinceRankPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProvinceRankPanel.Name = "ProvinceRankPanel";
             this.ProvinceRankPanel.Size = new System.Drawing.Size(447, 465);
             this.ProvinceRankPanel.TabIndex = 27;
@@ -307,7 +332,6 @@
             this.DataGridView.AllowUserToDeleteRows = false;
             this.DataGridView.AllowUserToResizeColumns = false;
             this.DataGridView.AllowUserToResizeRows = false;
-            this.DataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -370,7 +394,7 @@
             // 
             this.PlagueMap.Controls.Add(this.pictureBox1);
             this.PlagueMap.Location = new System.Drawing.Point(487, 12);
-            this.PlagueMap.Margin = new System.Windows.Forms.Padding(4);
+            this.PlagueMap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PlagueMap.Name = "PlagueMap";
             this.PlagueMap.Size = new System.Drawing.Size(835, 646);
             this.PlagueMap.TabIndex = 28;
@@ -391,7 +415,7 @@
             this.PlagueNews.Controls.Add(this.label6);
             this.PlagueNews.Controls.Add(this.listBox1);
             this.PlagueNews.Location = new System.Drawing.Point(1331, 12);
-            this.PlagueNews.Margin = new System.Windows.Forms.Padding(4);
+            this.PlagueNews.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PlagueNews.Name = "PlagueNews";
             this.PlagueNews.Size = new System.Drawing.Size(351, 482);
             this.PlagueNews.TabIndex = 29;
@@ -414,13 +438,14 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(355, 394);
             this.listBox1.TabIndex = 21;
+            this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
             // 
             // HistoryChart
             // 
             this.HistoryChart.Controls.Add(this.chart1);
             this.HistoryChart.Controls.Add(this.label7);
             this.HistoryChart.Location = new System.Drawing.Point(16, 691);
-            this.HistoryChart.Margin = new System.Windows.Forms.Padding(4);
+            this.HistoryChart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.HistoryChart.Name = "HistoryChart";
             this.HistoryChart.Size = new System.Drawing.Size(1307, 302);
             this.HistoryChart.TabIndex = 30;
@@ -431,7 +456,8 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "确诊";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(14, 33);
+            this.chart1.Location = new System.Drawing.Point(13, 32);
+            this.chart1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -466,7 +492,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1696, 1008);
+            this.ClientSize = new System.Drawing.Size(1540, 845);
             this.Controls.Add(this.HistoryChart);
             this.Controls.Add(this.PlagueNews);
             this.Controls.Add(this.PlagueMap);
@@ -519,7 +545,6 @@
         private System.Windows.Forms.Panel PlagueKnowledge;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel ProvinceRankPanel;
         private System.Windows.Forms.DataGridView DataGridView;
         private System.Windows.Forms.Panel PlagueMap;
@@ -534,6 +559,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn confirmed;
         private System.Windows.Forms.DataGridViewTextBoxColumn suspect;
         private System.Windows.Forms.DataGridViewTextBoxColumn death;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 

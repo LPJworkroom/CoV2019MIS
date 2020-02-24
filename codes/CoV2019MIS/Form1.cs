@@ -18,8 +18,8 @@ namespace CoV2019MIS
         private ProvinceRank provinceRank;  //省份数量排名类
 	    //private plagueMap;	//疫情地图类
 	    private HistoryChart historyChart;	//历史折线图类
-	    //private plagueNews;	//疫情新闻类
-	    //private plagueKnowledge;	//疫情知识类
+	    private PlagueNews plagueNews;	//疫情新闻类
+	    private PlagueKnowledge plagueKnowledge;	//疫情知识类
         public Form1()
         {
             InitializeComponent();
@@ -59,6 +59,24 @@ namespace CoV2019MIS
             for (int i=0;i<dates.Length;i++)
                 dailydatas.Add(new DailyData(dates[i], dailyDatas[i][0], dailyDatas[i][1], dailyDatas[i][2]));
             this.historyChart = new HistoryChart(dailydatas,(Chart)Controls.Find("Chart1",true)[0]);
+            /*load news*/
+            List<String[]> newsList=new List<string[]>();
+            String[][]newsData ={ new String[]{"多迭代","https://cn.bing.com" }, 
+                                  new String[]{"sdfsdf", "https://cn.bing.com" }, 
+                                  new String[]{"ssss", "https://cn.bing.com" } };
+            foreach(var strArr in newsData)
+                newsList.Add(strArr);
+            this.plagueNews = new PlagueNews(newsList, (ListBox)Controls.Find("listbox1", true)[0]);
+            /*load knowledges*/
+            List<String[]> knowList=new List<string[]> ();
+            String[][] knowDatas = { new string[] { "标题1","辟谣","锁锁缩缩梭"},
+                                     new string[] { "标题2","辟谣","是的是的梭"},
+                                     new string[] { "标题3","辟谣","锁锁缩的梭"},};
+            foreach (var strArr in knowDatas)
+                knowList.Add(strArr);
+            this.plagueKnowledge = new PlagueKnowledge(knowList,(RichTextBox)Controls.Find("richTextBox1",true)[0],
+                                    (Label)Controls.Find("label13", true)[0], (Label)Controls.Find("label14", true)[0],
+                                    (Button)Controls.Find("button1",true)[0], (Button)Controls.Find("button2", true)[0]);
         }
 
 
@@ -70,5 +88,20 @@ namespace CoV2019MIS
             ProvinceRank.generateRowNumber(dgv);
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.plagueKnowledge.lBClicked();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.plagueKnowledge.rBClicked();
+        }
+
+        private void listBox1_DoubleClick(object sender, EventArgs e)
+        {
+            /*after double click news title open browser*/
+            this.plagueNews.titleClicked();
+        }
     }
 }
