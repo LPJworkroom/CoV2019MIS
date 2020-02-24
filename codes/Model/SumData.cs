@@ -5,7 +5,7 @@ using System.Text;
 namespace Model
 {
     [Serializable]
-    class SumData
+    public class SumData
     {
         public int confirmed { get; set; }
         public int suspect { get; set; }
