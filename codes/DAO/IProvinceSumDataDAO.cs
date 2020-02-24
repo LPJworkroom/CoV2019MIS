@@ -8,7 +8,7 @@ namespace DAO
     public interface IProvinceSumDataDAO
     {
         List<ProvinceSumData> selectALL();
-        List<ProvinceSumData> selectByProvince(string province);
+        ProvinceSumData selectByProvince(string province);
         int insert(ProvinceSumData psd);
         int update(ProvinceSumData psd);
     }

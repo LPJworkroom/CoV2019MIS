@@ -29,7 +29,7 @@ namespace BLL
             return psddao.selectALL();
         }
 
-        public List<ProvinceSumData> selectByProvince(string province)
+        public ProvinceSumData selectByProvince(string province)
         {
             return psddao.selectByProvince(province);
         }
