@@ -8,7 +8,7 @@ namespace BLL
     public interface IProvinceSumDataBLL
     {
         List<ProvinceSumData> selectALL();
-        List<ProvinceSumData> selectByProvince(string province);
+        ProvinceSumData selectByProvince(string province);
         bool insert(ProvinceSumData psd);
         bool update(ProvinceSumData psd);
     }

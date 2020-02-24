@@ -36,21 +36,20 @@ namespace DAO
             return psdlst;
         }
 
-        public List<ProvinceSumData> selectByProvince(string province)
+        public ProvinceSumData selectByProvince(string province)
         {
-            List<ProvinceSumData> psdlst = new List<ProvinceSumData>();
+            ProvinceSumData psd = null;
             string sql = "select province,confirmed,suspect,death from ProvinceSumData where province=@province";
             List<MySqlParameter> plst = new List<MySqlParameter>();
             plst.Add(new MySqlParameter("@province", province));
             MySqlDataReader reader = MySQLHelper.ExecuteReader(sql, plst.ToArray());
-            while (reader.Read())
+            if (reader.Read())
             {
-                ProvinceSumData psd = new ProvinceSumData(reader.GetString("province"), reader.GetInt32("confirmed"), reader.GetInt32("suspect"), reader.GetInt32("death"));
-                psdlst.Add(psd);
+                psd = new ProvinceSumData(reader.GetString("province"), reader.GetInt32("confirmed"), reader.GetInt32("suspect"), reader.GetInt32("death"));
             }
             reader.Close();
 
-            return psdlst;
+            return psd;
         }
 
         public int update(ProvinceSumData psd)

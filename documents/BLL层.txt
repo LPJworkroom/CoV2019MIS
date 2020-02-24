@@ -74,7 +74,24 @@ public interface IProvinceNowColorBLL
 public interface IProvinceSumDataBLL
     {
         List<ProvinceSumData> selectALL();
-        List<ProvinceSumData> selectByProvince(string province);
+        ProvinceSumData selectByProvince(string province);
         bool insert(ProvinceSumData psd);
         bool update(ProvinceSumData psd);
+    }
+
+
+#UpdateDataBLL
+更新数据的类
+接口
+public interface UpdateDataBLL
+{
+	public bool updatePlague();
+	public bool updateNews();
+}
+
+#CatchJsonBLL
+接口
+public interface ICatchJsonBLL
+    {
+        string catchjson(string url);
     }
