@@ -16,7 +16,7 @@ namespace CoV2019MIS
     {
         private Overallinfo overallInfo;    //概况信息类
         private ProvinceRank provinceRank;  //省份数量排名类
-	    //private plagueMap;	//疫情地图类
+	    private PlagueMap plagueMap;	//疫情地图类
 	    private HistoryChart historyChart;	//历史折线图类
 	    private PlagueNews plagueNews;	//疫情新闻类
 	    private PlagueKnowledge plagueKnowledge;	//疫情知识类
@@ -61,22 +61,39 @@ namespace CoV2019MIS
             this.historyChart = new HistoryChart(dailydatas,(Chart)Controls.Find("Chart1",true)[0]);
             /*load news*/
             List<String[]> newsList=new List<string[]>();
-            String[][]newsData ={ new String[]{"多迭代","https://cn.bing.com" }, 
-                                  new String[]{"sdfsdf", "https://cn.bing.com" }, 
-                                  new String[]{"ssss", "https://cn.bing.com" } };
+            String[][]newsData ={ new String[]{"标题1","https://cn.bing.com" }, 
+                                  new String[]{"标题2", "https://cn.bing.com" }, 
+                                  new String[]{"标题3", "https://cn.bing.com" } };
             foreach(var strArr in newsData)
                 newsList.Add(strArr);
             this.plagueNews = new PlagueNews(newsList, (ListBox)Controls.Find("listbox1", true)[0]);
             /*load knowledges*/
             List<String[]> knowList=new List<string[]> ();
-            String[][] knowDatas = { new string[] { "标题1","辟谣","锁锁缩缩梭"},
-                                     new string[] { "标题2","辟谣","是的是的梭"},
-                                     new string[] { "标题3","辟谣","锁锁缩的梭"},};
+            String[][] knowDatas = { new string[] { "标题1","辟谣","内容1"},
+                                     new string[] { "标题2","辟谣","内容2"},
+                                     new string[] { "标题3","辟谣","内容3"},};
             foreach (var strArr in knowDatas)
                 knowList.Add(strArr);
             this.plagueKnowledge = new PlagueKnowledge(knowList,(RichTextBox)Controls.Find("richTextBox1",true)[0],
                                     (Label)Controls.Find("label13", true)[0], (Label)Controls.Find("label14", true)[0],
                                     (Button)Controls.Find("button1",true)[0], (Button)Controls.Find("button2", true)[0]);
+            /*load plauge map*/
+            Dictionary<String, int[]> befCol=new Dictionary<string, int[]> {
+                {"江苏",new int[]{248,106,141 } },
+                {"北京",new int[]{251,199,174 } },
+                {"上海",new int[]{204,204,6 } },
+            },provSumData=new Dictionary<string, int[]>{
+                {"江苏",new int[]{1,2,3} },
+                {"北京",new int[]{2,3,4} },
+                {"上海",new int[]{3,4,5 } },
+            };
+            Dictionary<int, int[]> plgCol=new Dictionary<int, int[]> {
+                {0,new int[]{254,254,254 } },
+                {10,new int[]{248,214,214 } },
+                {100,new int[]{134,147, 147 } },
+                {500,new int[]{221,79, 79} },
+            };
+            this.plagueMap = new PlagueMap((PictureBox)Controls.Find("pictureBox1", true)[0], befCol, provSumData, plgCol);
         }
 
 

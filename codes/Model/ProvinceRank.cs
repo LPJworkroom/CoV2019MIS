@@ -7,9 +7,6 @@ namespace Model
 {
     public class ProvinceRank
     {
-		/*排名用键及是否反序*/
-		private bool reversed=true;
-		private int key=0;
 		/*各省份累计数量*/
 		private Dictionary<String,String[]> data=new Dictionary<string, string[]>();
 		private DataGridView dataGridView=new DataGridView();
