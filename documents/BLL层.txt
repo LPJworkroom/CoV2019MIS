@@ -95,3 +95,11 @@ public interface ICatchJsonBLL
     {
         string catchjson(string url);
     }
+
+#ProcessDataBLL
+½Ó¿Ú
+public interface IProcessDataBLL
+    {
+        bool ProcessPlagueData(string jstr);
+        bool ProcessNewsData(string jstr);
+    }
